@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us - Travel Explorer</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url('b2.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    .about-section {
+      background: rgba(255, 255, 255, 0.15);
+      min-height: 100vh;
+      padding: 60px 20px;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .about-section h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: white;
+      text-shadow: 0 0 10px #0066ff;
+      animation: fadeInDown 1s ease;
+    }
+
+    .about-content {
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .mission-vision {
+      text-align: center;
+      margin-bottom: 50px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      backdrop-filter: blur(5px);
+    }
+
+    .mission-vision h2 {
+      color: #000000;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    .mission-vision p {
+      color: #000000;
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+      animation: fadeInUp 2s ease;
+    }
+
+    .team-card {
+      background: rgba(255, 255, 255, 0.9);
+      color: #333;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 102, 255, 0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .team-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 25px rgba(0, 102, 255, 0.6);
+    }
+
+    .team-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #0066ff;
+    }
+
+    .team-card h3 {
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+      color: #2c3e50;
+    }
+
+    .team-card p {
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .go-back-link {
+  display: inline-block;
+  background-color: #000000;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.go-back-link:hover {
+  background-color: #eaf4fd;
+  color: #000;
+}
+
+  </style>
+</head>
+
+<body>
+  <section class="about-section">
+    <h1>About Travel Explorer</h1>
+
+    <div class="about-content">
+      <div class="mission-vision">
+        <h2>Our Mission</h2>
+        <p>To inspire and enable unforgettable travel experiences that create lasting memories and broaden horizons.</p>
+        
+        <h2>Our Vision</h2>
+        <p>To be the world's most trusted travel companion, connecting people to extraordinary places and cultures.</p>
+      </div>
+
+      <div class="team-grid">
+  
+        <div class="team-card">
+          <img src="p10.jpg" alt="Team Member" loading="lazy">
+          <h3>piyush</h3>
+          <p>Founder & CEO</p>
+          <p>With over 15 years of experience in travel industry,  piyush leads our vision for transformative travel experiences.</p>
+        </div>
+
+        <div class="team-card">
+          <img src="p11.jpg" alt="Team Member" loading="lazy">
+          <h3>Pratik</h3>
+          <p>Travel Expert</p>
+          <p>Sarah specializes in crafting unique itineraries that blend adventure with cultural immersion.</p>
+        </div>
+
+        <div class="team-card">
+          <img src="p12.jpg" alt="Team Member" loading="lazy">
+          <h3>Mike</h3>
+          <p>Customer Experience Manager</p>
+          <p>Mike ensures that every journey with us exceeds expectations and creates lasting memories.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a href="index.html" class="go-back-link">← Go Back</a>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+  background-image: url('travelimage3.jpg');
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1500px;
+  font-family: Arial, sans-serif;
+}
+
+.info-panel {
+  width: 300px;
+  background-color: #f2d398;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: #111;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-panel h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.info-panel ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.offer-btn {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.offer-btn:hover {
+  background-color: #e0a800;
+}
+
+.dots {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #333;
+}
+
+.footer-note {
+  background-color: #e99b26;
+  color: white;
+  font-size: 0.85rem;
+  margin-top: 1.5rem;
+  padding: 0.7rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.book-button {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.book-now-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-btn:hover {
+  background-color: #218838;
+}
+.go-back-link {
+  display: inline-block;
+  background-color: #000000;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.go-back-link:hover {
+  background-color: #eaf4fd;
+  color: #000;
+}
